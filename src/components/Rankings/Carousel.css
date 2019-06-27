@@ -1,0 +1,55 @@
+.div-mock {
+    padding: 15px;
+    height: 270px;
+    text-align: center;
+    position: relative;
+}
+.img-mock {
+    border: 1px solid #fff;
+    height: 100%;   
+    position: relative;
+}
+
+.rating__overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+}
+
+.div-mock-black {
+
+    padding: 0 15px;
+    height: 237.33px;
+
+}
+.img-mock-black {
+    border: 1px solid #000;
+    height: 100%;   
+}
+.mock-caption {
+    position: absolute;
+    bottom: 20px;
+    width: calc(100% - 30px);
+    text-align: center;
+}
+
+.reviews__button {
+    padding: 8px 18px;
+    border-radius: 25px;
+    background:#e8a822;
+    border: 2px solid #e8a822;
+    color: #000;
+    height: auto;
+  }
+
+  .rating__img {
+      max-width: 100%;
+    opacity: 0.75;
+  }
+
+.rating__img:hover {
+    max-width: 100%;
+  opacity: 1;
+}
