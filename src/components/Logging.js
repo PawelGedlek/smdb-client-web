@@ -93,7 +93,7 @@ export default class Logging extends Component {
         }
 
         return this.request({
-            url: "http://192.168.1.104:5000/user/me",
+            url: "http://10.129.4.107:5000/user/me",
             method: 'GET'
         })
         .then(response => {
