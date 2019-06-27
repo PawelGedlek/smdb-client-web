@@ -46,7 +46,7 @@ export default class Toolbar extends Component {
         }
 
         return this.request({
-            url: "https://iris.codetype.pl:5000/user/me",
+            url: "http://192.168.1.104:5000/user/me",
             method: 'GET'
         })
         .then(response => {
