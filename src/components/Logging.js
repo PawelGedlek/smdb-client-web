@@ -93,7 +93,7 @@ export default class Logging extends Component {
         }
 
         return this.request({
-            url: "https:/agh.codetype.pl:5000/user/me",
+            url: "https://iris.codetype.pl:5000/user/me",
             method: 'GET'
         })
         .then(response => {
